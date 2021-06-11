@@ -94,13 +94,9 @@ function mouseDragged(){
 }
 
 
-function mouseReleased(){
-  slingShot.fly()
-}
-
 //create mouseReleased function here
 function mouseReleased(){
-  launcher.fly()
+  launcherObject.fly()
 }
 
 //create keyPressed function here

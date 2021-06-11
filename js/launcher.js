@@ -17,7 +17,7 @@ class launcher{
 
     display(){
       if(this.launcher.bodyA) { 
-          var pointA = this.Sling.bodyA.position;
+          var pointA = this.launcher.bodyA.position;
         var pointB = this.pointB;
         strokeWeight(4);
         line(pointA.x, pointA.y, pointB.x, pointB.y);
